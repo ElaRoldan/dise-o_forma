@@ -1,0 +1,109 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+a {
+  background-color: #999;
+  color: white;
+  display: block;
+  width: 182px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+}
+
+/*Selecciona todos los elementos con el id registration*/
+#registration {
+  margin: 40px;
+  margin-top: 40px; 
+  background-color: #D2D2D2;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+/*Selecciona la caja de texto e mail */
+#registration_email{
+  position: relative;
+  margin: 25px; /*mueve la caja a la derecha*/
+  margin-top: 20px;
+  border-style: none; /*quitar los bordes*/
+  border-radius: 5px; /*redondea los bordes*/
+  padding: 10px; /* Hace la caja de exto màs ancha*/
+  padding-right: 120px; /*extiende la caja de texto a la derecha */
+}
+
+/*Selecciona la caja de texto para password*/
+#registration_password {
+  position: relative;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-style: none; 
+  border-radius: 5px; 
+  padding: 10px; 
+  padding-right: 120px; 
+}
+
+/*Selecciona la caja de texto de comentarios*/
+#textarea_text {
+  position: relative;
+  margin-left: 25px;
+  border-style: none; 
+  border-radius: 5px; 
+  padding: 10px; 
+  padding-right: 212px; 
+  padding-bottom: 80px;
+}
+
+/*Selecciona la caja de texto para el telefono*/
+#registration_tel {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-style: none; 
+  border-radius: 5px; 
+  padding: 10px; 
+  padding-right: 460px; 
+}
+
+/*Selecciona el boton de enviar*/
+#registration_btn {
+  width: 635px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  padding: 8px; 
+  background-color: rgb(51, 153, 255);
+  box-shadow: 2px 2px 2px 2px #ffffff;
+  color: white;
+  
+}
+
+.main-title {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  top: 600px;
+  padding: 20px 0;
+}
